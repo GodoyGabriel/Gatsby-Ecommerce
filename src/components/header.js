@@ -3,12 +3,12 @@ import PropTypes from "prop-types";
 import React from "react";
 import { MenuItem, StyledHeader } from '../styles/components';
 import cartImg from '../images/cart.png';
-import hallowenLogo from '../images/halloween-card.png';
+import logo from '../images/ecommerce.png';
 
 const Header = ({ siteTitle }) => (
   <StyledHeader>
     <Link to='/'>
-      <img src={hallowenLogo} alt='cartlogo'/>
+      <img src={logo} alt='cartlogo'/>
     </Link>
     <nav>
       <ul>

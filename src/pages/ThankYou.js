@@ -10,7 +10,7 @@ export default function ThankYou(){
       <Purchase>
         <h2>Compra exitosa</h2>
         <p>Gracias por tu compra!</p>
-        <span rol='img' aria-label='emoji'>😉</span>
+        <span role="img" aria-label="emoji">😉</span>
         <Link to='/'>
           <Button>Volver al Catalogo</Button>
         </Link>

@@ -1,13 +1,14 @@
-import React from 'react';
-import { StyledJumbo } from '../styles/components';
-
-export default function Jumbo() {
+import React from "react"
+import { StyledJumbo } from "../styles/components"
+import Image from './Image';
+export default function Jumbo({ siteMetaData }) {
   return (
     <StyledJumbo>
-          <div>
-        <h2>Haciendo pruebas</h2>
-        <small>Piiezas elegantes</small>
+      <div>
+        <h2>{siteMetaData.title}</h2>
+        <small>{siteMetaData.description}</small>
       </div>
+      <Image name="icon" />
     </StyledJumbo>
   )
 }
